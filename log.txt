@@ -1,0 +1,28 @@
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event4 (Power Button)
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event2 (Power Button)
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event12 (Intel HID events)
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event13 (Intel HID 5 button array)
+Oct 10 20:39:41 skywalker systemd-logind[598]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 10 20:39:41 skywalker gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=132) by (uid=0)
+Oct 10 20:39:41 skywalker systemd-logind[598]: New session c1 of user Debian-gdm.
+Oct 10 20:39:41 skywalker systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=132) by (uid=0)
+Oct 10 20:39:43 skywalker polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale de_DE.UTF-8)
+Oct 10 20:39:44 skywalker realmd[1156]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Oct 10 20:39:44 skywalker realmd[1156]: holding daemon: startup
+Oct 10 20:39:44 skywalker realmd[1156]: starting service
+Oct 10 20:39:44 skywalker realmd[1156]: connected to bus
+Oct 10 20:39:44 skywalker realmd[1156]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Oct 10 20:39:44 skywalker realmd[1156]: released daemon: startup
+Oct 10 20:39:44 skywalker realmd[1156]: claimed name on bus: org.freedesktop.realmd
+Oct 10 20:39:52 skywalker gdm-password]: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
+Oct 10 20:39:52 skywalker gdm-password]: PAM adding faulty module: pam_gnome_keyring.so
+Oct 10 20:39:57 skywalker gdm-password]: pam_unix(gdm-password:session): session opened for user elliot(uid=1000) by (uid=0)
+Oct 10 20:39:57 skywalker systemd-logind[598]: New session 2 of user elliot.
+Oct 10 20:39:57 skywalker systemd: pam_unix(systemd-user:session): session opened for user elliot(uid=1000) by (uid=0)
+Oct 10 20:40:00 skywalker gdm-password]: pam_unix(gdm-password:session): session closed for user elliot
+Oct 10 20:40:01 skywalker systemd-logind[598]: Session 2 logged out. Waiting for processes to exit.
+Oct 10 20:40:01 skywalker systemd-logind[598]: Removed session 2.
+Oct 10 20:40:45 skywalker realmd[1156]: quitting realmd service after timeout
+Oct 10 20:40:45 skywalker realmd[1156]: stopping service
